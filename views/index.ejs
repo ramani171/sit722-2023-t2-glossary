@@ -1,146 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DevOps Glossary</title>
+    <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body class="bg">
     <h1></h1>
     <div class="topnav">
       <p>
-        <caption>SIT722 DevOps Glossary</caption>
+        <caption><%= title %></caption>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <caption>Task 1.2P - s223773783</caption>
-        
-       
+        <caption><%= subheading %></caption>    
       </p>
     </div>
-    
-        <table>
+    <br>
+    <table>
 
-       
-          
-
-          <tr>
-              <th>ID</th><th>Term</th><th>Description</th><th>References</th>
-          </tr>
-          <tr>
-              <td>1</td>
-              <td>DevOps</td>
-              <td>DevOps represents the combination of Development (Dev) and Operations (Ops).</td>
-              <td>Krief, M. (2022). Learning DevOps A Comprehensive Guide to Accelerating DevOps Culture Adoption with Terraform,
-                 Azure DevOps, Kubernetes, and Jenkins. Packt Publishing, Limited.
-              </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>CI</td>
-            <td>
-              Continuous integration is a software development practice where members of a team integrate their work frequently<br>
-              Each integration is verified by an automated build to detect integration errors
-            </td>
-            <td>Krief, M. (2022). Learning DevOps A Comprehensive Guide to Accelerating DevOps Culture Adoption with Terraform,
-              Azure DevOps, Kubernetes, and Jenkins. Packt Publishing, Limited.</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>CD</td>
-          <td>After CI, applications must be deployed automatically in one or more non-production environments, 
-             which is called staging.<br>
-            This process is called continuous delivery (CD).</td>
-          <td>Krief, M. (2022). Learning DevOps A Comprehensive Guide to Accelerating DevOps Culture Adoption with Terraform,
-              Azure DevOps, Kubernetes, and Jenkins. Packt Publishing, Limited.
-          </td>
-        </tr>
-          <tr>
-              <td>4</td>
-              <td>Agile</td>
-              <td>Agile is a key part of DevOps. While Agile focuses on constant changes and making developers and development cycles more 
-                  efficient and DevOps focuses on CI and CD.</td>
-              <td>Coupland, M. (2021). DevOps Adoption Strategies: Principles, Processes, Tools, and Trends. Packt Publishing Ltd.</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Silos</td>
-            <td>
-              A silo in IT is an isolated point in a system where data is kept segregated (on purpose or accidently) from other parts of an organization’s
-              information and communication technology (ICT) architecture.
-            </td>
-            <td>Rouse, M. (2023, July 14). Techopedia. https://www.techopedia.com/definition/25939/silo#What_Does_Silo_Mean</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>IaC</td>
-          <td>In DevOps' scope, Infrastructure as Code (IaC) is the automation of routine tasks through code, typically as configuration definition files.</td>
-          <td>Vadapalli, S. (2018). DevOps : Dive into the core DevOps strategies, rapid learning solution. Packt Publishing.
-          </td>
+      <tr>
+        <th>ID</th><th>Term</th><th>Description</th><th>References</th>
       </tr>
+
+      
+      
+      <% list.forEach( (item) => { %>
+
+        
+          
           <tr>
-              <td>7</td>
-              <td>Containers</td>
-              <td>The container acts as a boundary between the development and operations responsibilities<br>
-                They can remove the need for some of the collaboration between development and operations</td>
-              <td>
-                Coupland, M. (2021). DevOps adoption strategies : principles, processes, tools, and trends :
-                 embracing DevOps through effective culture, people, and processes. Packt Publishing.
-              </td>
-          </tr>
+            <td><%= item.sno %></td>
+            <td><%= item.term %></td>
+            <td><%= item.def %></td>      
+            <td><%= item.ref %></td>
           <tr>
-              <td>8</td>
-              <td>Microservices</td>
-              <td>
-                Microservices are an architectural and organizational approach where software is composed of small independent services that communicate over well-defined APIs. 
-                <br>
-                It makes applications easier to scale and faster to develop, accelerates time-to-market for new features.
-              </td>
-              <td>AWS. (2019). What are Microservices? | AWS. Amazon Web Services, Inc. https://aws.amazon.com/microservices/‌</td>
-          </tr>
 
-          <tr>
-            <td>9</td>
-            <td>Bootstrap</td>
-            <td>
-              Bootstrap is the most popular HTML, CSS and JS framework for developing a responsive and mobile friendly website. <br>
-              It can also use JavaScript plug-ins.
-           </td>
-            <td>
-              Kumar, R. (2022, December 14). What is Bootstrap & How it works? An Overview and Its Use Cases!!! DevOpsSchool.com. https://www.devopsschool.com/blog/what-is-bootstrap-how-it-works-an-overview-and-its-use-case/
-            </td>
-        </tr>
+          
+        
 
-        <tr>
-          <td>10</td>
-          <td>Dockers</td>
-          <td>
-            We use Docker to package, publish, and test our microservices
-         </td>
-          <td>
-            Davis, A. (2021). Bootstrapping microservices with Docker, Kubernetes, and Terraform : a project-based guide. Manning.
-          </td>
-        </tr>
+      <% }) %>
 
-        <tr>
-          <td>11</td>
-          <td>Image</td>
-          <td>
-            An image is a bootable snapshot of a server (in our case, a microservice) including all the code, dependencies, and assets that it needs to run.
-         </td>
-          <td>
-            Davis, A. (2021). Bootstrapping microservices with Docker, Kubernetes, and Terraform : a project-based guide. Manning.
-          </td>
-        </tr>
+      
 
-        <tr>
-          <td>12</td>
-          <td>Kubernetes</td>
-          <td>
-            Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications
-         </td>
-          <td>
-            Kubernetes. (2019). Production-Grade Container Orchestration. Kubernetes.io. https://kubernetes.io/
-          </td>
-        </tr>
 
-        </table>
-          </body>
+      
+    </table>
+  </body>
 </html>
