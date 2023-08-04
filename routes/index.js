@@ -69,10 +69,76 @@ const DevGlos = [
     'term':'Dockers',
     'def':'We use Docker to package, publish, and test our microservices',
     'ref': 'Davis, A. (2021). Bootstrapping microservices with Docker, Kubernetes, and Terraform : a project-based guide. Manning.'
+  },
+  {
+    'sno':'11',
+    'term':'Image',
+    'def':' An image is a bootable snapshot of a server (in our case, a microservice) including all the code, dependencies, and assets that it needs to run.',
+    'ref': 'Davis, A. (2021). Bootstrapping microservices with Docker, Kubernetes, and Terraform : a project-based guide. Manning.'
+  },
+
+  {
+    'sno':'12',
+    'term':'Kubernetes',
+    'def':'Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications',
+    'ref': 'Kubernetes. (2019). Production-Grade Container Orchestration. Kubernetes.io. https://kubernetes.io/'
+  },
+  {
+     'sno':'13',
+    'term':'DevOps Pipeline',
+     'def':'DevOps pipeline is a set of tools and automated practices that helps in the collaboration of developers and operational workforce from building to deploying the code into client system.',
+     'ref':'Atlassian. (n.d.). DevOps Pipeline. Atlassian. https://www.atlassian.com/devops/devops-tools/devops-pipeline#:~:text=A%20DevOps%20pipeline%20is%20a'
+     
+  },
+  {
+    'sno':'14',
+   'term':'DevOps as a service',
+    'def':'This helps in building environments and automation for smaller organizations that may not have the budget or experience.',
+    'ref':'Chapter 2: Business Benefits, Team Topologies, and Pitfalls of DevOps - DevOps Adoption Strategies: Principles, Processes, Tools, and Trends [Book]. (n.d.). Www.oreilly.com. Retrieved August 4, 2023, from https://learning.oreilly.com/library/view/devops-adoption-strategies/9781801076326/B17192_02_Final_ASB_ePub.xhtml#_idParaDest-52'
+
+  },
+  {
+    'sno':'15',
+   'term':'Anti-patterns',
+    'def':'Practices that are counterproductive to the performance and overall progress of DevOps transformation.',
+    'ref':'Chapter 2: Business Benefits, Team Topologies, and Pitfalls of DevOps - DevOps Adoption Strategies: Principles, Processes, Tools, and Trends [Book]. (n.d.). Www.oreilly.com. Retrieved August 4, 2023, from https://learning.oreilly.com/library/view/devops-adoption-strategies/9781801076326/B17192_02_Final_ASB_ePub.xhtml#_idParaDest-58'
+
+  },
+  {
+    'sno':'16',
+   'term':'Terraform',
+    'def':'A Infrastructure as Code(TaC) tool developed by HashiCorp, users create and manage data infrastructure in cloud.',
+    'ref':'‌Chapter 2: Provisioning Cloud Infrastructure with Terraform - Learning DevOps - Second Edition [Book]. (n.d.). Www.oreilly.com. Retrieved August 4, 2023, from https://learning.oreilly.com/library/view/learning-devops/9781801818964/B17725_02_ePub.xhtml#_idParaDest-31'
+
+  },
+  {
+    'sno':'17',
+   'term':'MVP',
+    'def':'Minimum Viability Product(MVP) is defined as basic version of an application that should be released early and updated frequently.',
+    'ref':'Chapter 12: Implementing DevOps in a Real-World Organization - DevOps Adoption Strategies: Principles, Processes, Tools, and Trends [Book]. (n.d.). Www.oreilly.com. Retrieved August 4, 2023, from https://learning.oreilly.com/library/view/devops-adoption-strategies/9781801076326/B17192_12_Final_ASB_ePub.xhtml'
+
+  },
+  {
+    'sno':'18',
+   'term':'BDD',
+    'def':'Behavior-driven design(BDD) is a agile methodology which an application is documented and designed around user expected behavior.',
+    'ref':'What is behavior-driven development (BDD)? Definition from SearchSoftwareQuality. (n.d.). Software Quality. Retrieved August 4, 2023, from https://www.techtarget.com/searchsoftwarequality/definition/Behavior-driven-development-BDD#:~:text=Laura%20Fitzgibbons-'
+
+  },
+  {
+    'sno':'19',
+   'term':'TDD',
+    'def':'Test-Driven Development(TDD) is a methodology that focuses on writing iterative test cases to build and test software continuously.',
+    'ref':'What is Test-Driven Development? (n.d.). Testdriven.io. https://testdriven.io/test-driven-development/'
+
+  },
+  {
+    'sno':'20',
+   'term':'SRE',
+    'def':'Site reliability engineering(SRE) is a principle that applies practices and definition of software engineering to infrastructure and operations problems.',
+    'ref':'Chapter 12: Implementing DevOps in a Real-World Organization - DevOps Adoption Strategies: Principles, Processes, Tools, and Trends [Book]. (n.d.). Www.oreilly.com. Retrieved August 4, 2023, from https://learning.oreilly.com/library/view/devops-adoption-strategies/9781801076326/B17192_12_Final_ASB_ePub.xhtml#_idParaDest-250'
+
   }
-
-  
-
 
 ];
 
