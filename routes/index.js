@@ -69,21 +69,9 @@ const DevGlos = [
     'term':'Dockers',
     'def':'We use Docker to package, publish, and test our microservices',
     'ref': 'Davis, A. (2021). Bootstrapping microservices with Docker, Kubernetes, and Terraform : a project-based guide. Manning.'
-  },
+  }
 
-  {
-    'sno':'11',
-    'term':'Image',
-    'def':' An image is a bootable snapshot of a server (in our case, a microservice) including all the code, dependencies, and assets that it needs to run.',
-    'ref': 'Davis, A. (2021). Bootstrapping microservices with Docker, Kubernetes, and Terraform : a project-based guide. Manning.'
-  },
-
-  {
-    'sno':'12',
-    'term':'Kubernetes',
-    'def':'Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications',
-    'ref': 'Kubernetes. (2019). Production-Grade Container Orchestration. Kubernetes.io. https://kubernetes.io/'
-  },
+  
 
 
 ];
