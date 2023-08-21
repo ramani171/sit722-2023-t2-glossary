@@ -138,7 +138,83 @@ const DevGlos = [
     'def':'Site reliability engineering(SRE) is a principle that applies practices and definition of software engineering to infrastructure and operations problems.',
     'ref':'Chapter 12: Implementing DevOps in a Real-World Organization - DevOps Adoption Strategies: Principles, Processes, Tools, and Trends [Book]. (n.d.). Www.oreilly.com. Retrieved August 4, 2023, from https://learning.oreilly.com/library/view/devops-adoption-strategies/9781801076326/B17192_12_Final_ASB_ePub.xhtml#_idParaDest-250'
 
-  }
+  },
+  {
+    'sno':'21',
+   'term':'Container Orchestration',
+    'def':'Container orchestration automates deployment, scaling, and management of containerized applications for efficient DevOps workflows using tools like Kubernetes.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved August 21, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#heading_id_7'
+  },
+  {
+    'sno':'22',
+    'term':'Docker Compose',
+    'def':'Docker Compose is a tool for defining and running multi-container Docker applications using a single configuration file, simplifying local development and testing.',
+    'ref':'8 Automated testing for microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved August 21, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/08.htm',
+  },
+  {
+    'sno':'23',
+    'term':'SDK',
+    'def':'Software Development Kit is a set of tools which are platform-specific, used for building application for developers in one place.',
+    'ref':'What is SDK? - SDK Explained - AWS. (n.d.). Amazon Web Services, Inc. Retrieved August 21, 2023, from https://aws.amazon.com/what-is/sdk/#:~:text=A%20software%20development%20kit%20(SDK',
+  },
+  {
+    'sno':'24',
+    'term':'YAML',
+    'def':"YAML (YAML A'int Markup Language) is a human-readable data serialization format using indentation for structuring, commonly used for configuration files and data exchange in software applications.",
+    'ref':'What is YAML? A Beginner’s Guide. (2021, April 9). CircleCI. https://circleci.com/blog/what-is-yaml-a-beginner-s-guide/',
+  },
+
+  {
+    'sno':'25',
+    'term':'Docker Compose file',
+    'def':'A Docker Compose file is a YAML configuration defining how to run and connect multiple Docker containers as a single application.',
+    'ref':'The Compose file. (2023, August 11). Docker Documentation. https://docs.docker.com/compose/compose-file/03-compose-file/',
+  },
+
+  {
+    'sno':'26',
+    'term':'RabbitMQ',
+    'def':'This is a message sequencing software used for sending messages between microservices.',
+    'ref':'5 Communication between microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved August 21, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/05.htm#heading_id_4',
+  },
+
+  {
+    'sno':'27',
+    'term':'amqplib',
+    'def':'It is a NPM package that is used to send and receive messages from JavaScript by configuring RabbitMQ',
+    'ref':'5 Communication between microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved August 21, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/05.htm#heading_id_4',
+  },
+
+  {
+    'sno':'28',
+    'term':'DOcker Swarm Hosted Service',
+    'def':'Docker Swarm Hosted Service provides native container orchestration as a service, allowing automatic scaling and management of containerized applications across a cluster of machines.It simplifies the deployment and operation of containers, enhancing collaboration and resource utilization for distributed applications.',
+    'ref':'4 Data management for microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved August 21, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/04.htm#heading_id_12',
+  },
+
+  {
+    'sno':'29',
+    'term':'Separation of concerns',
+    'def':'Separation of Concerns is a design principle that advocates breaking software systems into distinct components, each addressing a specific aspect or concern. This promotes modularity, reusability, and easier maintenance by isolating different functionalities, such as user interface, data storage, and business logic, within separate modules or layers. This enhances overall system clarity and adaptability.',
+    'ref':'Separation of Concerns. (n.d.). DevIQ. https://deviq.com/principles/separation-of-concerns',
+  },
+
+    {
+    'sno':'30',
+    'term':'Single responsibility principle',
+    'def':'The Single Responsibility Principle in DevOps refers to the practice of designing software components or microservices with a specific and well-defined purpose, ensuring they perform one distinct function effectively, which aids maintainability, scalability, and agility in the development and operations lifecycle.',
+    'ref':'Devops, A. (2022, September 3). SOLID Principles Part-1. Medium. https://blog.devgenius.io/solid-principles-part-1-67b244fbac06',
+  },
+
+
+  // {
+  //   'sno':'',
+  //   'term':'',
+  //   'def':'',
+  //   'ref':'',
+  // },
+
+
 
 ];
 
