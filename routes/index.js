@@ -187,7 +187,7 @@ const DevGlos = [
 
   {
     'sno':'28',
-    'term':'DOcker Swarm Hosted Service',
+    'term':'Docker Swarm Hosted Service',
     'def':'Docker Swarm Hosted Service provides native container orchestration as a service, allowing automatic scaling and management of containerized applications across a cluster of machines.It simplifies the deployment and operation of containers, enhancing collaboration and resource utilization for distributed applications.',
     'ref':'4 Data management for microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved August 21, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/04.htm#heading_id_12',
   },
@@ -206,6 +206,69 @@ const DevGlos = [
     'ref':'Devops, A. (2022, September 3). SOLID Principles Part-1. Medium. https://blog.devgenius.io/solid-principles-part-1-67b244fbac06',
   },
 
+  {
+    'sno':'31',
+    'term':'SKU',
+    'def':'Stock Keeping Unit contains all the version of a product,Azure Load Balancer will be available in two (Stock-keeping-Unit)SKUs - Basic and Standard.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#:-:text=%E2%91%A5%20Using%20the%20basic',
+  },
+
+    
+  {
+    'sno':'32',
+    'term':'SSH key',
+    'def':'SSH is an access credential following SSH protocol similar to names and passwords.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#:-:text=SSH%20key',
+  },
+  {
+    'sno':'33',
+    'term':'Vault',
+    'def':'HashiCorp Vault is an identity-based secrets and encryption management system.Terraform Cloud automatically configures these values as environment variables in the runtime environment. To leverage these secrets from Vault in conjunction with other Terraform resources, you can employ the Vault provider.',
+    'ref':'Chapter 12: Architecting for DevSecOps - Enterprise DevOps for Architects [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/enterprise-devops-for/9781801812153/B17492_12_ePub_RK.xhtml#:-:text=%20Vault%20',
+  },
+  {
+    'sno':'34',
+    'term':'Service Principle',
+    'def':'A "service principal" refers to a type of authentication mechanism used to interact with cloud providers and services like Microsoft Azure, Google Cloud Platform (GCP), or AWS (Amazon Web Services) when managing infrastructure with Terraform.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#:-:text=A%20service%20principal%20is',
+  },
+  {
+    'sno':'35',
+    'term':'RBAC',
+    'def':'RBAC stands for Role-Based Access Control. AKS provides native integration with Azure Active Directory (Azure AD) and Kubernetes RBAC, allowing you to define fine-grained access control for users and applications interacting with your Kubernetes clusters.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#:-:text=-rbac',
+  },
+
+    {
+    'sno':'36',
+    'term':'Kubectl',
+    'def':'kubectl is a command-line tool for interacting with Kubernetes clusters, used to manage containerized applications and resources.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#:-:text=-rbac',
+  },
+  {
+    'sno':'37',
+    'term':'tls',
+    'def':'TLS stands for Transport Layer Security. It is a cryptographic protocol designed to provide secure communication over a network, typically the internet.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#:-:text=tls_private_key',
+  },
+  {
+    'sno':'38',
+    'term':'Nodes',
+    'def':'In the context of Kubernetes, "nodes" refer to the individual machines or instances that make up a Kubernetes cluster. Nodes are the worker machines responsible for running containerized applications and services.',
+    'ref':'6 Creating your production environment - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 8, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm#:-:text=%20nodes',
+  },
+  {
+    'sno':'39',
+    'term':'CRI',
+    'def':'The Container Runtime Interface (CRI) is a standardized interface that allows container runtimes to seamlessly integrate with the kubelet on a node.',
+    'ref':'Glossary. (n.d.). Kubernetes. Retrieved September 8, 2023, from https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-cri',
+  },
+  {
+    'sno':'40',
+    'term':'UID',
+    'def':'Uid Link is a system-generated string used to provide a unique identifier for objects within the Kubernetes ecosystem. This string is crucial for distinguishing and tracking various resources, such as pods, services, and nodes, throughout their lifecycle in a Kubernetes cluster.',
+    'ref':'Glossary. (n.d.). Kubernetes. https://kubernetes.io/docs/reference/glossary/?fundamental=true',
+  }
 
   // {
   //   'sno':'',
