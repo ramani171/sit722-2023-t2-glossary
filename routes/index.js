@@ -268,8 +268,77 @@ const DevGlos = [
     'term':'UID',
     'def':'Uid Link is a system-generated string used to provide a unique identifier for objects within the Kubernetes ecosystem. This string is crucial for distinguishing and tracking various resources, such as pods, services, and nodes, throughout their lifecycle in a Kubernetes cluster.',
     'ref':'Glossary. (n.d.). Kubernetes. https://kubernetes.io/docs/reference/glossary/?fundamental=true',
-  }
+  },
+  
+  {
+    'sno':'41',
+    'term':'Bitbucket',
+    'def':"Bitbucket is a web-based platform for version control and collaboration that enables DevOps teams to host, manage, and collaborate on code repositories using Git or Mercurial. It supports features like pull requests, code review, and continuous integration.",
+    'ref':'8 Automated testing for microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 23, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/08.htm#:-:text=configuring%20Bitbucket%20Pipelines',
+  },
 
+  {
+    'sno':'42',
+    'term':'Tenant ID',
+    'def':'In the context of DevOps and cloud services like Azure, a Tenant ID is a unique identifier associated with an Azure Active Directory (Azure AD) tenant. It is used to authenticate and manage resources within that tenant, often in conjunction with service principals for automation and access control.',
+    'ref':'MikePlumleyMSFT. (2023, July 17). Find your Microsoft 365 tenant ID - SharePoint in Microsoft 365. Learn.microsoft.com. https://learn.microsoft.com/en-us/sharepoint/find-your-office-365-tenant-id',
+  },
+
+  {
+    'sno':'43',
+    'term':'ARM',
+    'def':"ARM is Microsoft's infrastructure as code (IaC) service in Azure DevOps. It allows DevOps teams to define and manage Azure resources using templates and scripts, making it easier to provision, update, and delete cloud infrastructure as part of the DevOps pipeline.",
+    'ref':'Evangelist, Y. P., Product. (n.d.). Azure Resource Manager (ARM) Benefits and Best Practices. Bluexp.netapp.com. Retrieved September 23, 2023, from https://bluexp.netapp.com/blog/azure-cvo-blg-azure-resource-manager-arm-benefits-and-best-practices#:~:text=Topics%3A%20Cloud%20Volumes%20ONTAP%2C%20Azure',
+  },
+
+  {
+    'sno':'44',
+    'term':'Terraform state',
+    'def':'Terraform state refers to the record of the current state of infrastructure managed by Terraform, an open-source IaC tool. It helps Terraform understand the resources it manages, track changes, and plan updates. Storing this state is essential for safely managing infrastructure as code.',
+    'ref':'7 Getting to continuous delivery - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 23, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/07.htm#:-:text=We%20learned%20how%20to',
+  },
+
+  {
+    'sno':'45',
+    'term':'REST',
+    'def':'REST is an architectural style used in DevOps for designing networked applications. It uses a set of principles for creating web services that are scalable, stateless, and easy to consume. RESTful APIs are commonly used in DevOps for communication between different components of a system.',
+    'ref':'What is a REST API? | IBM. (n.d.). Www.ibm.com. Retrieved September 23, 2023, from https://www.ibm.com/topics/rest-apis#:~:text=For%20example%2C%20a%20REST%20API',
+  },
+
+  {
+    'sno':'46',
+    'term':'Jest',
+    'def':'Jest is a JavaScript testing framework commonly used in DevOps for testing JavaScript applications and components. It provides a suite of tools for writing and running tests, making it easier to ensure the reliability and functionality of code.',
+    'ref':'8 Automated testing for microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 23, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/08.htm#:-:text=Jest%20',
+  },
+
+  {
+    'sno':'47',
+    'term':'Cypress',
+    'def':'Cypress is an end-to-end testing framework used in DevOps to test web applications. It allows DevOps teams to write and run automated tests that simulate real user interactions with a web application, helping identify and fix issues early in the development process.',
+    'ref':'Cypress (software). (2023, July 13). Wikipedia. https://en.wikipedia.org/wiki/Cypress_(software)',
+  },
+
+  {
+    'sno':'48',
+    'term':'Gateway',
+    'def':'In DevOps, a gateway typically refers to an API gateway, which is a server that acts as an entry point for multiple microservices. It handles tasks like routing, load balancing, authentication, and rate limiting, making it easier to manage and secure microservices-based applications.',
+    'ref':'A Guide to DevSecOps with API Gateway - API7.ai. (n.d.). A Guide to DevSecOps with API Gateway - API7.Ai. Retrieved September 23, 2023, from https://api7.ai/blog/guide-to-devsecops-with-api-gateway',
+  },
+
+  {
+    'sno':'49',
+    'term':'Load Balancer',
+    'def':'A load balancer in DevOps is a network device or service that distributes incoming network traffic across multiple servers or instances. It ensures high availability, improves performance, and prevents overloading of a single server, making it a critical component for scaling applications.',
+    'ref':'What is Kubernetes Load Balancer? (n.d.). Avi Networks. Retrieved September 23, 2023, from https://avinetworks.com/glossary/kubernetes-load-balancer/#:~:text=The%20load%20balancer%20tracks%20the',
+  },
+
+  {
+    'sno':'50',
+    'term':'Timeout',
+    'def':'In DevOps, a timeout refers to the maximum allowed duration for a process or operation to complete. Timeouts are often used in various DevOps tools and systems to handle situations where an operation takes longer than expected, ensuring that resources are not tied up indefinitely and that errors are appropriately managed.',
+    'ref':'10 Healthy microservices - Bootstrapping Microservices with Docker, Kubernetes, and Terraform [Book]. (n.d.). Www.oreilly.com. Retrieved September 23, 2023, from https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/10.htm#:-:text=timeout',
+  }
   // {
   //   'sno':'',
   //   'term':'',
